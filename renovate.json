@@ -5,7 +5,7 @@
   ],
   "rollbackPrs": true,
   "customDatasources": {
-    "local_generic": {
+    "local-generic": {
       "defaultRegistryUrlTemplate": "file://versions.json",
       "transformTemplates": [
         "{ \"releases\": $map($, function($v) { { \"version\": $v.version, \"sourceUrl\": $v.filelink } }) }"
