@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended"
   ],
+  "rollbackPrs": true,
   "customDatasources": {
     "local_generic": {
       "defaultRegistryUrlTemplate": "file://versions.json",
